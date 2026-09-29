@@ -1,0 +1,60 @@
+1. Laravel (PHP Framework)
+
+---> composer create-project laravel/laravel nom_du_projet
+
+Crée un nouveau projet Laravel.
+-----> laravel new nom_du_projet
+
+Serveur de développement
+-----> php artisan serve   Lance le serveur local (souvent http://127.0.0.1:8000).
+
+[ Artisan Commands (Commandes Laravel) ]
+
+Créer un contrôleur :
+-----> php artisan make:controller NomController
+
+
+Créer un modèle :
+-----> php artisan make:model NomModel
+
+
+Créer une migration :
+-----> php artisan make:migration create_nom_table
+
+
+Créer une factory :
+-----> php artisan make:factory NomFactory
+
+
+Créer un seeder (pour remplir la base de données) :
+-----> php artisan make:seeder NomSeeder
+
+Migration et base de données
+-----> php artisan migrate
+Applique les migrations (crée les tables dans la base de données).
+
+-----> php artisan migrate:rollback
+Annule la dernière migration.
+
+-----> php artisan migrate:fresh --seed
+Supprime toutes les tables, recrée et ajoute les seeders.
+
+Autres commandes utiles
+php artisan route:list
+-----> Liste toutes les routes définies.
+
+php artisan config:cache
+-----> Met en cache la configuration (utile pour production).
+
+php artisan cache:clear
+-----> Vide le cache.
+
+2. React (JavaScript Framework)
+-----> Création de projet
+npx create-react-app nom_du_projet
+
+-----> Lancer le serveur de développement
+npm start
+Lance le serveur local (souvent http://localhost:3000).
+
+

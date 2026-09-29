@@ -1,0 +1,25 @@
+les facades : classes 
+view: methode
+View: class
+imbriquation : dossier dans un dossier 
+---------------------------------------
+3 methodes 
+make :
+first : 
+exists:
+--------------------------------------
+routes 
+-quand on execute une route elle s'en va au dossier storage/framework/Views
+avec la precompilation qui transforme page.blade.php  a un .......... .php
+---------------------------------------------------------------------
+php artisan view:clear   sert pour nettoyer ou vider le cache 
+php artisan view:cache   pour précompiler toutes les vues utilisées par votre application
+                         pour tester tout le projet et regenerer tous
+
+
+partie backend(php) / partie frontend(react) : PHP 
+Blade :
+l'heritage :                   @yield('content’) 
+
+inclusion : @include
+composants : bases sur des classes / anonymes 
